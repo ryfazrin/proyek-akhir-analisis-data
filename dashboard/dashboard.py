@@ -34,7 +34,7 @@ def create_sum_order_items_df(df):
     return sum_order_items_df
 
 # All DataFrame
-all_df = pd.read_csv("all_data.csv")
+all_df = pd.read_csv("dashboard/all_data.csv")
 
 
 datetime_columns = ["order_purchase_timestamp", "order_purchase_timestamp"]
